@@ -109,7 +109,7 @@ button {
   padding: 1rem;
   max-width: 25rem;
   min-height: 25rem;
-  border-radius: 5%;
+  border-radius: 30px;
 }
 
 .star {
@@ -176,7 +176,15 @@ button {
 .thank-you-section {
   align-content: center;
   text-align: center;
-  /* margin: 1.5rem 0; */
+  margin: 1rem 0 0 0;
+}
+
+.thank-you__image-container {
+  background-image: url(./images/illustration-thank-you.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 6.75rem;
 }
 
 .thank-you__image {
@@ -200,6 +208,10 @@ button {
     height: 1rem;
     width: 1rem;
     padding: 1.5rem;
+  }
+
+  .thank-you-section {
+    margin: 0;
   }
 }
 

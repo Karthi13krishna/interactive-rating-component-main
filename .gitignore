@@ -18,3 +18,6 @@ design/
 style-guide.md
 README-template.md
 README.md
+node_modules
+.cache/
+dist/

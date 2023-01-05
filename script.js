@@ -17,13 +17,7 @@ submit.addEventListener('click', (e) => {
   e.preventDefault();
   if (rating) {
     card.innerHTML = `<div class="grid thank-you-section">
-    <div>
-      <img
-        class="thank-you__image"
-        src="./images/illustration-thank-you.svg"
-        alt="illustration of a phone"
-      />
-    </div>
+    <div class="thank-you__image-container"></div>
     <div class="rating-result">You selected ${rating} out of 5</div>
     <div class="title">Thank you!</div>
     <p>
