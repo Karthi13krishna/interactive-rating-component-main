@@ -104,7 +104,7 @@ button {
   margin: auto;
 }
 
-.rating {
+.rating-card {
   background-color: var(--dark-blue);
   padding: 1rem;
   max-width: 25rem;
@@ -148,6 +148,11 @@ button {
 }
 
 .rating__btn:where(:hover, :active) {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.rating__btn.selected {
   background-color: var(--light-grey);
   color: var(--white);
 }
@@ -158,6 +163,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   padding: 0.5rem;
+  width: 100%;
   border: 0;
   border-radius: 50px;
 }
@@ -187,7 +193,7 @@ button {
 }
 
 @media screen and (min-width: 375px) {
-  .rating {
+  .rating-card {
     padding: 2rem;
   }
   .rating__btn {
